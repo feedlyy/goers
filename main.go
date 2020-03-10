@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"goers/Problem_9"
+)
 
-func main () {
-	fmt.Println("tes")
+func main() {
+	var n int
+	fmt.Scan(&n)
+	fmt.Print(Problem_9.Factorial(n))
 }
